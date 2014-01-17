@@ -1,0 +1,25 @@
+{
+  "name": "contextualize",
+  "version": "0.0.2",
+  "description": "A simple tool for lazily bootstrapping any nodejs app into each application context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.test.js"
+  },
+  "author": "Matt Dunlap <mpdunlap@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Prestaul/contextualize.git"
+  },
+  "dependencies": {
+    "stackr": "~0.1.0",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.11",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1",
+    "supertest": "~0.8.0"
+  }
+}
